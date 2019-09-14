@@ -17,14 +17,12 @@ class App extends Component {
 
     render() {
         return ( < div className = "container" >
-            <
-            h1 className = "title" > Hello world < span aria - label = "emoji"
-            role = "img" > 🔥 < /span></h1 >
-            < input onChange = { this.handleTaskChange }
+            <h1 className = "title" > Hello world < span aria-label = "emoji"
+            role = "img" > 🔥 </span></h1 >
+            <input onChange = { this.handleTaskChange }
             type = "text"
-            className = "new-task" / >
-            <
-            h2 className = "test-label" > { this.state.newTask } </h2> </div >
+            className = "new-task" />
+            < h2 className = "test-label" > { this.state.newTask } </h2> </div >
 
 
         );
